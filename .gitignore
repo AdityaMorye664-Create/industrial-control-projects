@@ -1,0 +1,24 @@
+# CODESYS Backup and Temporary Files
+*.bak
+*.tmp
+~$*.project
+*.journal
+
+# CODESYS Compilation & Build Artifacts
+*.compileinfo
+*.stat
+*.app
+*.crc
+*.compiled-library
+
+# Edge Gateway & Telemetry Logs (C# / Python)
+# Useful if you ever store MQTT pipeline scripts or local SQLite logs alongside the PLC logic
+bin/
+obj/
+*.sqlite
+*.db
+*.log
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
